@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0xMTliYXRjaDQtbXludC0yMS1sZWF2ZXNmcmFtZV8xLmpwZw.jpg");
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    padding: 20px 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(to right, #f6f3ff, #dcd2f6);
+}
+nav a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 1.1rem;
+}
+.images{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card-container{
+    margin: 200px 0px;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    gap: 30px;
+}
+.card{
+    text-align: center;
+    padding: 8px;
+    background: linear-gradient(to bottom right, #e0f7fa, #f1f8e9);
+    border-radius: 10px;
+}
+p{
+    padding: 20px;;
+}
+h2{
+    padding: 20px;;
+}
+button{
+    display: block;
+    margin: auto;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 2px;
+}
+.bt1{
+    background-color: coral;
+}
+.bt2{
+    background-color: deepskyblue;
+}
+.bt3{
+    background-color: goldenrod;
+}
+.bt4{
+    background-color: rgb(175, 49, 49);
+}

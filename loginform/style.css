@@ -1,0 +1,33 @@
+form{
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input{
+    width: 100%;
+    margin: 5px;
+    padding: 8px;
+    /* border-radius: 10%; */
+}
+button{
+    height: 50px;
+    width: 50px;
+    border-radius: 35%;
+}
+#btn{
+    text-align: center;
+}
+address{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKcOOCu8Rb8DSZ3AeXDwQiUi3OvGrE6M1Z_Q&s);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.box2 , .box1{
+    display: flex;
+    justify-content: space-between;
+}

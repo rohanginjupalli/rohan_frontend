@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://media.istockphoto.com/id/856952836/photo/spa-treatment-set.jpg?s=612x612&w=0&k=20&c=fd8-Rvp-mwIa32cBObUbI7a7ijR-p75hAjWBoQR3Xb0=");
+    background-size: cover;
+}
+h1{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    word-spacing: 6px;
+    letter-spacing: 3px;
+    margin-top: 50px;
+    font-size: 3.9rem;
+}
+.pricemenu{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+
+}
+ul li{
+    list-style-type: none;
+}
+.card{
+    background-color: rgba(9, 9, 9, 0.2);
+    color: rgb(255, 255, 255);
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding: 5px;
+    line-height: 47px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px rgb(255, 255, 255);
+    font-size: 1.1rem;
+}
+button{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.btn1{
+    background-color: red;
+}
+.btn2{
+    background-color: green;
+}
+.btn3 {
+    background-color: blue;
+}
+.mainhead1{
+    background-color: red;
+    border-radius: 10px
+}
+.mainhead2{
+    background-color: green;
+    border-radius: 10px
+}
+.mainhead3{
+    background-color: blue;
+    border-radius: 10px
+}
+#footerbar{
+    margin-top: 40px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
