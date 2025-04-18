@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+h2, h3 {
+    font-weight: 700;
+    color: #222;
+}
+h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+  }
+  
+  h3 {
+    font-size: 1.3rem;
+  }
+@media screen and (min-width:576px) {
+    .navbar{
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 1.2rem;
+    }
+    a{
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+    .navbar-foods{
+        display: flex;
+        gap: 40px;
+    }
+}
+@media screen and (max-width: 576px){
+    .navbar-foods a{
+        display: none;
+    }
+}
+.navbar{
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.2rem;
+}
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.navbar-foods{
+    display: flex;
+    gap: 40px;
+}
+
+/* this is for main content */
+
+@media screen and (min-width:576px) {
+    .maincontent-1{
+        background-color: #00CFCF;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        text-align: center;
+        color: white
+        ;
+    }
+    img{
+        margin-bottom: 20px;
+        width: 240px;
+        height: 240px;
+        border-radius: 50%;
+    }
+    .maincontent-1 H1{
+        margin-bottom: 20px;
+    }
+    .maincontent-1 p{
+        font-size: 1.5rem;
+    }
+    
+}
+@media screen and (max-width:576px){
+    .maincontent-1 img{
+        display: none;
+    }
+}
+
+.maincontent-1{
+    background-color: #00CFCF;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    color: white
+    ;
+}
+.maincontent-1 img{
+    margin-bottom: 20px;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+}
+.maincontent-1 H1{
+    margin-bottom: 20px;
+}
+.maincontent-1 p{
+    font-size: 1.5rem;
+}
+
+.container img{
+    height: 240px;
+    width: 240px;
+}
+
+@media screen and (min-width:992px){
+    .last-content{
+        display: flex; 
+    }
+    .container{
+        padding: 40px;
+    }
+    .container img{
+        margin: 10px 0px;
+        border-radius: 0; 
+    }
+    .container p{
+        margin-top: 10px;
+    }
+    
+}
+@media screen and (max-width:992px) {
+    .last-content{
+        display: flex;
+        flex-direction: column; 
+    }
+    .container img{
+        display: none;
+    }
+    .container{
+        padding: 40px;
+    }
+    .container p{
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
